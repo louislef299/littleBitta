@@ -1,0 +1,18 @@
+profileMode:
+  enabled: true
+  subtitle: "This is subtitle"
+  imageUrl: "image/elephant.png" 
+  imageTitle: "Little Bitta Logo" 
+  # imageWidth: 120
+  # imageHeight: 120
+  buttons:
+    - name: Archive
+      url: "/archive"
+    - name: Github
+      url: "https://github.com/louislef299"
+
+socialIcons: 
+  - name: github
+    url: "https://github.com/louislef299"
+
+disableThemeToggle: true

@@ -1,0 +1,13 @@
+baseURL: https://louislef299.github.io/littleBitta/
+languageCode: en-us
+title: Little Bitta
+theme: PaperMod 
+enableEmoji: true
+enableGitInfo: true
+copyright: "&copy;2023 Louis Lefebvre"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
