@@ -3,8 +3,6 @@ profileMode:
   subtitle: "This is subtitle"
   imageUrl: "image/elephant.png" 
   imageTitle: "Little Bitta Logo" 
-  # imageWidth: 120
-  # imageHeight: 120
   buttons:
     - name: Archive
       url: "/archive"
@@ -17,3 +15,7 @@ socialIcons:
 
 disableThemeToggle: true
 hideFooter: false
+
+label:
+  icon: "image/elephant.png"
+  text: Little Bitta Bakes

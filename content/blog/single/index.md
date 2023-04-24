@@ -1,10 +1,10 @@
 ---
-title: "Contact"
-layout: "contact"
-url: "/contact/"
+title: "Single"
+layout: "single"
+type: modern
 ---
-Contact Us
-----------
+Sinlge Page with Eclectic Font
+-------
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Faucibus scelerisque eleifend donec pretium. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Rutrum quisque non tellus orci. Tincidunt dui ut ornare lectus sit amet est placerat in. Erat velit scelerisque in dictum non consectetur a erat nam. Sed faucibus turpis in eu. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Ut venenatis tellus in metus vulputate eu scelerisque felis.
 

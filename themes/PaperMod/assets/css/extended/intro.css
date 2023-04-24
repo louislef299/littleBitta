@@ -1,0 +1,68 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+.main #intro li a:hover,
+.main #intro {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.main #intro li {
+  display: inline-block;
+  font-size: .75rem;
+  line-height: 1rem;
+}
+.main #intro li a {
+  display: inline-block;
+  padding: .75rem;
+}
+.main #intro {
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+
+@media (min-width:1024px) {
+.main #intro li {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    max-width: 1024px;
+}
+.main #intro {
+    padding-bottom: 3rem;
+}
+}
+
+@media (min-width:640px) {
+.main #intro {
+    max-width: 640px;
+}
+}
+
+@media (min-width:768px) {
+.main #intro {
+    max-width: 768px;
+}
+}
+
+@media (min-width:1280px) {
+    .main #intro ,
+    .main #testimonials>div,
+    .page main,
+    body>*,
+    header {
+      max-width: 1280px;
+    }
+}
+
+@media (min-width:1536px) {
+    .main #intro ,
+    .main #testimonials>div,
+    .page main,
+    body>*,
+    header {
+      max-width: 1536px;
+    }
+  }
