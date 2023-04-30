@@ -1,0 +1,105 @@
+.main #products>a:hover,
+body.page form button:hover {
+  background-color: rgb(var(--red), var(--green), var(--blue));
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:focus,
+.main #products>a:focus,
+body.page form button:focus {
+  box-shadow: 0 0 0 0 #fff,0 0 0 calc(4px + 0px) rgba(59,130,246,.5),0 0 transparent;
+}
+
+.main #products h1:after,
+.page main tr:nth-child(2) {
+  background-color: #f3f4f6;
+}
+
+.main #products {
+  background-color: rgba(var(--red), var(--green), var(--blue), .7);
+  margin: 0;
+  max-width: none;
+  padding: 1.75rem 1.25rem;
+  color: #fff;
+  width: 100vw;
+}
+
+.main #products h1 {
+  opacity: .9;
+  text-align: center;
+  color: #f3f4f6;
+  text-shadow: 1px 1px 3px rgba(36,37,47,25%);
+}
+
+.main #products>a {
+  background-color: #fff;
+  border-radius: .75rem;
+  border: 2px solid rgb(var(--red), var(--green), var(--blue));
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: .5rem 1rem;
+  color: rgb(var(--red), var(--green), var(--blue));
+  text-decoration: none;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: max-content;
+}
+
+.main #products>a:before {
+  content: "↓ ";
+}
+
+.main #products table {
+background-color: #fff;
+border-radius: .375rem;
+margin: 1.5rem auto;
+overflow: hidden;
+box-shadow: 0 0 transparent,0 0 transparent,0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);
+color: #000;
+}
+
+.main #products table thead {
+border-bottom: 4px solid #fff;
+background-color: rgba(var(--red), var(--green), var(--blue), .1);
+border-color: rgba(var(--red), var(--green), var(--blue), .3);
+font-weight: 700;
+}
+
+.main #products table thead td {
+padding: 1.25rem;
+}
+.main #products table thead td:nth-of-type(3):before {
+content: "";
+}
+.main #products table td:first-child {
+font-weight: 700;
+}
+.main #products table td {
+padding: 1rem;
+}
+.main #products table td:nth-of-type(3):before {
+content: "$ ";
+}
+.main #products table tr:nth-child(2n) {
+background-color: rgba(var(--red), var(--green), var(--blue), .1);
+}
+.main #products table tr:hover {
+background-color: rgba(var(--red), var(--green), var(--blue), .3);
+}
+
+.main #products>a {
+font-size: 1.125rem;
+line-height: 1.75rem;
+padding: .75rem 1.25rem;
+}
+
+.main #products>a {
+padding: 1rem 1.5rem;
+}

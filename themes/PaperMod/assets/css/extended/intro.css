@@ -1,15 +1,14 @@
-/*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
-
-Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
-*/
-.main #intro li a:hover,
 .main #intro {
   position: absolute;
   bottom: 0;
   text-align: center;
   width: 100%;
 }
+
+.main #intro li a:hover {
+  text-decoration: underline;
+}
+
 .main #intro li {
   display: inline-block;
   font-size: .75rem;
@@ -24,45 +23,12 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
   position: relative;
 }
 
-@media (min-width:1024px) {
-.main #intro li {
-    font-size: .875rem;
-    line-height: 1.25rem;
-    max-width: 1024px;
+.main #intro h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
 }
-.main #intro {
-    padding-bottom: 3rem;
-}
-}
-
-@media (min-width:640px) {
-.main #intro {
-    max-width: 640px;
-}
-}
-
-@media (min-width:768px) {
-.main #intro {
-    max-width: 768px;
-}
-}
-
-@media (min-width:1280px) {
-    .main #intro ,
-    .main #testimonials>div,
-    .page main,
-    body>*,
-    header {
-      max-width: 1280px;
-    }
-}
-
-@media (min-width:1536px) {
-    .main #intro ,
-    .main #testimonials>div,
-    .page main,
-    body>*,
-    header {
-      max-width: 1536px;
-    }
-  }
