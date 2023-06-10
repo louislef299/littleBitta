@@ -1,0 +1,86 @@
+.main #description {
+background-color: #fff;
+min-height: 100vh;
+padding-left: 1.75rem;
+padding-right: 1.75rem;
+padding-bottom: 2.5rem;
+}
+
+.main #description hr {
+clear: both;
+scroll-snap-align: start;
+}
+
+.main #description a:hover,
+body.page form button:hover {
+    text-decoration: underline;
+}
+
+.main #description p {
+padding-top: .5rem;
+padding-bottom: .5rem;
+color: #000;
+}
+.main #description p {
+font-size: .875rem;
+line-height: 1.25rem;
+margin-left: 1rem;
+margin-right: 1rem;
+padding-top: .75rem;
+padding-bottom: .75rem;
+}
+
+.main #description hr~h2,
+.main #description hr~p {
+margin-left: 2rem;
+margin-right: 2rem;
+}
+.main #description p {
+font-size: 1rem;
+line-height: 1.5rem;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+}
+
+.main #description h1 {
+margin-top: 5rem;
+} 
+.main #description h1 {
+margin-top: 2.5rem;
+text-align: center;
+}
+
+.main #description h2 {
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: .75rem;
+}
+.main #description h2 {
+font-size: 1.5rem;
+line-height: 2rem;
+padding-top: 2.5rem;
+}
+.main #description h2 {
+font-weight: 700;
+font-size: 1.125rem;
+line-height: 1.75rem;
+padding-top: .75rem;
+padding-bottom: .75rem;
+margin-top: 5rem;
+}
+
+
+.main #description img {
+border-radius: .125rem;
+margin-top: 1.25rem;
+margin-bottom: 2.5rem;
+box-shadow: 0 0 transparent,0 0 transparent,0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+width: 100%;
+}
+
+@media (min-width:768px) {
+.main #description {
+padding-left: 0;
+padding-right: 0;
+}
+}

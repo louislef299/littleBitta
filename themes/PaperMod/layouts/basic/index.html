@@ -2,8 +2,8 @@
 {{$title := default site.Title .Title}}
     <section id="intro">
       {{with $title}}<h1>{{.}}</h1>{{end}}
-      {{with .Param "subtitle"}}<h2>{{. | humanize | markdownify}}</h2>{{end}}
-      <a href="{{ref . (.Param "explore")}}">Explore</a>
+      {{with .Param "subtitle"}}<h2>{{. | markdownify}}</h2>{{end}}
+      <!-- <a href="{{ref . (.Param "explore")}}">Explore</a> -->
       {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer" }}
     </section>
     <section id="description">

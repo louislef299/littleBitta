@@ -1,8 +1,7 @@
 ---
 title: Little Bitta
 description: Welcome to the website of Michele Lefebvre. 
-subtitle: catchy subtitle goes *here*
-explore: blog
+subtitle: MN based, homemade, small-batch granola
 type: basic
 testimonials:
   - author: Louis Lefebvre
@@ -11,17 +10,14 @@ testimonials:
               This is the best granola you will ever have!
 ---
 
-Acme is the **best**
+![about us](image/about.jpg)
+
+Michele does it *right*
 ==================
 
-![about us](about.jpg)
-
-The finest in this field
-------------------------
-
-Acme Corporation&trade; is the _world’s leading manufacturer of digital shapes_. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles.
-
-[About Us](./about)
+With everything made locally, and by the pro herself, you can comfortably know
+that you will get the best taste and quality, every time. To learn more about our
+story, check out [About Us](./about).
 
 * * *
 
