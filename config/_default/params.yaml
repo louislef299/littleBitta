@@ -19,3 +19,6 @@ hideFooter: false
 label:
   icon: "image/elephant.png"
   text: Little Bitta Bakes
+
+icons:
+  path: "assets/fontawesome-free-6.4.0-web/cssfont-awesome.min.css"

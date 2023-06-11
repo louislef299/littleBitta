@@ -1,42 +1,42 @@
 @media (min-width:1024px) {
 .main #intro li {
-    font-size: .875rem;
-    line-height: 1.25rem;
-    max-width: 1024px;
+font-size: .875rem;
+line-height: 1.25rem;
+max-width: 1024px;
 }
 .main #intro {
-    padding-bottom: 3rem;
+padding-bottom: 3rem;
 }
 }
 
 @media (min-width:640px) {
 .main #intro {
-    max-width: 640px;
+max-width: 640px;
 }
 }
 
 @media (min-width:768px) {
 .main #intro {
-    max-width: 768px;
+max-width: 768px;
 }
 }
 
 @media (min-width:1280px) {
-    .main #intro ,
-    .main #testimonials>div,
-    .page main,
-    body>*,
-    header {
-        max-width: 1280px;
-    }
+.main #intro ,
+.main #testimonials>div,
+.page main,
+body>*,
+header {
+    max-width: 1280px;
+}
 }
 
 @media (min-width:1536px) {
-    .main #intro ,
-    .main #testimonials>div,
-    .page main,
-    body>*,
-    header {
-        max-width: 1536px;
-    }
-    }
+.main #intro ,
+.main #testimonials>div,
+.page main,
+body>*,
+header {
+    max-width: 1536px;
+}
+}

@@ -10,6 +10,7 @@ en:
     - name: Archive
       url: archives
       weight: 5
+      identifier: fas fa-message
     - name: Search
       url: search/
       weight: 10
