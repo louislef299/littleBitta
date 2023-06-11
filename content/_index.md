@@ -21,7 +21,7 @@ story, check out [About Us](./about).
 
 * * *
 
-![contact us](contact.jpg)
+![contact us](image/contact.jpg)
 
 Personalized especially for you
 -------------------------------

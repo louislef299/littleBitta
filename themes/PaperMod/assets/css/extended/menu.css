@@ -1,0 +1,58 @@
+.main #menu {
+background-color: rgba(var(--red), var(--green), var(--blue), .7);
+margin: 0;
+max-width: none;
+padding: 1.75rem 1.25rem;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.main #menu h1 {
+text-align: center;
+text-shadow: 0 1px 2px rgba(30,29,39,19%),1px 2px 4px rgba(54,64,147,18%);
+}
+.main #menu h2 {
+font-weight: 300;
+opacity: .9;
+text-shadow: 1px 1px 3px rgba(36,37,47,25%);
+}
+.main #menu ul {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+width: 100%;
+}
+.main #menu li {
+border-color: #c7d2fe;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: 1.25rem;
+line-height: 1.75rem;
+padding: 1.25rem;
+text-align: center;
+transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+.main #menu li a {
+display: block;
+padding-bottom: .25rem;
+padding-top: .5rem;
+text-shadow: 0 1px 2px rgba(30,29,39,19%),1px 2px 4px rgba(54,64,147,18%);
+}
+.main #menu li p {
+opacity: .9;
+color: #f3f4f6;
+text-shadow: 1px 1px 3px rgba(36,37,47,25%);
+}
+.main #menu i {
+background-color: #f3f4f6;
+border-radius: 9999px;
+display: block;
+height: 4rem;
+margin: 1rem auto;
+width: 4rem;
+filter: drop-shadow(0 4px 3px rgba(0,0,0,.07)) drop-shadow(0 2px 2px rgba(0,0,0,.06));
+background-size: 30px;
+}

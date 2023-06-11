@@ -8,6 +8,7 @@ menu:
     name: About
     identifier: about
     weight: 110
+    url: /about
   footer:
     name: About
     weight: 100
