@@ -19,7 +19,7 @@ With everything made locally, and by the pro herself, you can comfortably know
 that you will get the best taste and quality, every time. To learn more about our
 story, check out [About Us](./about).
 
-{{< fa bath >}}
+{{< fa github >}}
 
 * * *
 

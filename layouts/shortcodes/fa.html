@@ -1,5 +1,5 @@
 <!-- use default fontawesome class 'fas' or use a specified one like 'fab' for brands -->
-{{ $faStylePrefix := "fas" }}
+{{ $faStylePrefix := "fab" }}
 {{ if in (slice "fas" "far" "fal" "fad" "fab") (.Get 0) }}
   {{ $faStylePrefix = (.Get 0) }}
 {{ end }}
@@ -9,6 +9,6 @@
     so it does not disturb the text flow (like removing spaces) -->
   {{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
     {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
-    <link href="/assets/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="/css/all.min.css" rel="stylesheet">
   {{ end }}
 </i>

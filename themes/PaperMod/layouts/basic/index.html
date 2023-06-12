@@ -15,7 +15,7 @@
           {{ range . }}
           <li>
             <a href="{{.URL}}">
-              <i class="{{.Identifier}}"></i>
+              <i class="icon-{{.Identifier}}"></i>
               {{.Name | humanize}}
             </a>
             {{with .Post}}<p>{{.}}</p>{{end}}
