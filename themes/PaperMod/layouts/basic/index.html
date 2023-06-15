@@ -10,11 +10,10 @@
     {{with site.Menus.main }}
       <section id="menu">
       <h1>Website sections</h1>
-        <h2>This website has these major areas</h2>
         <ul>
           {{ range . }}
           <li>
-            <a href="{{.URL}}">
+            <a href="{{.URL}}"  target="_blank" rel="noopener noreferrer me">
               <i class="icon-{{.Identifier}}"></i>
               {{.Name | humanize}}
             </a>

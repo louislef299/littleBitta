@@ -19,6 +19,3 @@ hideFooter: false
 label:
   icon: "image/elephant.png"
   text: Little Bitta Bakes
-
-icons:
-  path: "css/all.min.css"
