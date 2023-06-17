@@ -15,6 +15,7 @@ socialIcons:
 
 disableThemeToggle: true
 hideFooter: false
+defaultTheme: auto
 
 label:
   icon: "image/elephant.png"
