@@ -8,9 +8,7 @@ menu:
     name: Blog
     weight: 100
 ---
-The Acme Blog
+Michele's Blog
 ============
 
-Curated content about our teams and products.
-
-{{% productInfo %}}
+Up your baking game with some help from the best.

@@ -3,11 +3,6 @@ title: Little Bitta
 description: Welcome to the website of Michele Lefebvre. 
 subtitle: MN based, homemade, small-batch granola
 type: basic
-testimonials:
-  - author: Louis Lefebvre
-    from: Fictional Incorporated
-    content: >
-              This is the best granola you will ever have!
 ---
 
 ![about us](image/about.jpg)

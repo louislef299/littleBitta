@@ -13,10 +13,16 @@ socialIcons:
   - name: github
     url: "https://github.com/louislef299"
 
-disableThemeToggle: true
 hideFooter: false
 defaultTheme: auto
 
 label:
-  icon: "image/elephant.png"
+  icon: "image/purple-elephant.png"
   text: Little Bitta Bakes
+
+# You can add testimonials once the customer base increases
+# testimonials:
+#   - author: Louis Lefebvre
+#     from: Fictional Incorporated
+#     content: >
+#               This is the best granola you will ever have!

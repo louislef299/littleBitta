@@ -3,13 +3,12 @@ background-color: rgba(var(--red), var(--green), var(--blue), .7);
 margin: 0;
 max-width: none;
 padding: 1.75rem 1.25rem;
-color: #fff;
 width: 100%;
 text-align: center;
 }
 
 .main #products table {
-background-color: #fff;
+background-color: var(--products);
 border-radius: .375rem;
 margin: 1.5rem auto;
 overflow: hidden;
@@ -48,14 +47,13 @@ background-color: rgba(var(--red), var(--green), var(--blue), .3);
 }
 
 .main #products>a {
-  background-color: #fff;
+  background-color: var(--products);
   border-radius: .75rem;
-  border: 2px solid rgb(var(--red), var(--green), var(--blue));
+  border: 2px solid var(--border);
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   padding: .5rem 1rem;
-  color: rgb(var(--red), var(--green), var(--blue));
   text-decoration: none;
   transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
@@ -64,6 +62,7 @@ background-color: rgba(var(--red), var(--green), var(--blue), .3);
   margin-left: auto;
   margin-right: auto;
   width: max-content;
+  color: #000;
 }
 .main #products>a:before{
   content: "↓ ";

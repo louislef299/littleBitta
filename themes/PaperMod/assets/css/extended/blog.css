@@ -7,7 +7,6 @@ padding-left: 1.25rem;
 padding-right: 1.25rem;
 }
 .main #blog h1 {
-background-color: #fff;
 text-align: center;
 }
 
@@ -23,7 +22,6 @@ html body .post a {
 text-decoration: none;
 }
 .post {
-background-color: #fff;
 border: 2px solid transparent;
 cursor: pointer;
 overflow: hidden;
@@ -72,10 +70,10 @@ font-size: 1.25rem;
 line-height: 1.75rem;
 padding-bottom: .75rem;
 padding-top: 2rem;
-color: #1f2937;
+/* color: #1f2937; */
 }
 .post article {
-color: #4b5563;
+/* color: #4b5563; */
 overflow: hidden;
 display: -webkit-box;
 -webkit-line-clamp: 3;
