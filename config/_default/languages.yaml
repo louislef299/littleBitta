@@ -5,9 +5,9 @@ en:
     category: categories
     tag: tags
     series: series
-  menu:
-    main:
-    - name: Tags
-      url: tags/
-      weight: 10
-      identifier: tags
+  # menu: can add back once blog posts are active
+  #   main:
+  #   - name: Tags
+  #     url: tags/
+  #     weight: 10
+  #     identifier: tags
