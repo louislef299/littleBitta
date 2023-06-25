@@ -21,7 +21,8 @@ label:
   text: Little Bitta Bakes
 
 # You can add testimonials once the customer base increases
-# testimonials:
+testimonials:
+   - tweet: https://twitter.com/Canelo/status/1655275902010359814?cxt=HHwWjIC8ibaq3PgtAAAA
 #   - author: Louis Lefebvre
 #     from: Fictional Incorporated
 #     content: >
