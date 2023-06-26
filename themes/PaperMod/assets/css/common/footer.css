@@ -4,12 +4,15 @@
     color: var(--secondary);
 }
 
-.footer {
-    max-width: calc(var(--main-width) + var(--gap) * 2);
+.footer, .header {
     margin: auto;
-    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 24px;
+    max-width: none;
+}
+
+.footer {
+    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
 }
 
 .footer span {
