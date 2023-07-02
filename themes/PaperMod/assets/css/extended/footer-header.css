@@ -1,3 +1,4 @@
 .footer, .header {
-    background-color: var(--footer-and-header);
+    background-color: var(--footer-header);
+    color: var(--footer-header-text)
 }

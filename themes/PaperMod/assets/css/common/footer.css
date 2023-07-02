@@ -54,7 +54,7 @@
 
 .footer a:hover,
 .top-link:hover {
-    color: var(--primary);
+    color: var(--footer-header-text);
 }
 
 .top-link:focus,

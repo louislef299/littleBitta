@@ -15,10 +15,12 @@ socialIcons:
 
 hideFooter: false
 defaultTheme: auto
+disableThemeToggle: true
 
 label:
   icon: "image/purple-elephant.png"
   text: Little Bitta Bakes
+  iconHeight: 40px
 
 # You can add testimonials once the customer base increases
 testimonials:
