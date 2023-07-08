@@ -7,25 +7,6 @@
     <section id="description">
       {{.Content}}
     </section>
-    {{with site.Menus.main }}
-      <section id="menu">
-      <h1>Website sections</h1>
-        <ul>
-          {{ range . }}
-          <li>
-            <a href="{{.URL}}" rel="noopener noreferrer me">
-              <i class="icon-{{.Identifier}}"></i>
-              {{.Name | humanize}}
-            </a>
-            {{with .Post}}<p>{{.}}</p>{{end}}
-          </li>
-          {{ else }}
-          {{/* Log for the website editor/developer */}}
-          <!-- No menu entries present -->
-          {{end}}
-        </ul>
-      </section>
-    {{end}}
     {{with resources.GetMatch "products.csv"}}
     <section id="products">
       <h1>Our Products</h1>
@@ -42,7 +23,7 @@
           {{end}}
         </table>
       {{end}}
-      <a href="{{.Permalink}}" download>Download listing</a>
+      <!-- <a href="{{.Permalink}}" download>Download listing</a> -->
     </section>
     {{end}}
     {{with 
@@ -74,11 +55,20 @@
     <div>
       <ol>
         {{range .}}
+	{{$author := default "" .author}}
+	{{$content := default "" .content}}
+	{{$from := default "" .from}}
+	{{if .tweet}}
+	  {{$tweet := getJSON "https://publish.twitter.com/oembed?url=" .tweet "&omit_script=1&hide_media=1&hide_thread=1&dnt=true" }}
+	  {{$author = $tweet.author_name }}
+	  {{$from = "via Twitter"}}
+	  {{$content = $tweet.html}}
+	{{end}}
         <li>
-            <p>{{.content}}</p>
+            <p>{{$content | safeHTML}}</p>
             <div>
-              <h2>{{.author}}</h2>
-              <h3>{{.from}}</h3>
+              <h2>{{$author | title}}</h2>
+              <h3>{{$from}}</h3>
             </div>
         </li>
         {{end}}
