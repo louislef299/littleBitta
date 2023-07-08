@@ -7,20 +7,18 @@ type: basic
 
 ![granola](image/granola.png)
 
-Michele does it *right*
-==================
+# Granola made *right*
 
 With everything made locally, and by the pro herself, you can comfortably know
-that you will get the best taste and quality, every time. To learn more about our
+that you will get the best taste and quality in your granola, every time. To learn more about our
 story, check out [About Us](./about).
 
-* * *
+***
 
-![contact us](image/family.jpg)
+![family picture](image/family.jpg)
 
-Personalized especially for you
--------------------------------
+# Contact Michele
 
-We convert dreams into designs. Our artists are one of a kind. We provide full support for customizing your designs with multiple contact sessions to understand your problems and get a satisfying result.
+We are currently a small brand and only allow orders to run through email. If you would like to try out our granola, feel free to email us at [little.bitta.lefebvre@gmail.com](mailto:little.bitta.lefebvre@gmail.com) with your name, address and order request and we will get back to you as soon as possible. We currently only operate in the Minnesota metro area.
 
-[Talk to us today](./contact)
+***
