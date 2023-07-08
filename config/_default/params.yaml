@@ -14,7 +14,7 @@ socialIcons:
     url: "https://github.com/louislef299"
 
 hideFooter: false
-defaultTheme: auto
+defaultTheme: light
 disableThemeToggle: true
 disableScrollToTop: true
 
