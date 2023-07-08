@@ -7,25 +7,6 @@
     <section id="description">
       {{.Content}}
     </section>
-    {{with site.Menus.main }}
-      <section id="menu">
-      <h1>Website sections</h1>
-        <ul>
-          {{ range . }}
-          <li>
-            <a href="{{.URL}}" rel="noopener noreferrer me">
-              <i class="icon-{{.Identifier}}"></i>
-              {{.Name | humanize}}
-            </a>
-            {{with .Post}}<p>{{.}}</p>{{end}}
-          </li>
-          {{ else }}
-          {{/* Log for the website editor/developer */}}
-          <!-- No menu entries present -->
-          {{end}}
-        </ul>
-      </section>
-    {{end}}
     {{with resources.GetMatch "products.csv"}}
     <section id="products">
       <h1>Our Products</h1>
@@ -42,7 +23,7 @@
           {{end}}
         </table>
       {{end}}
-      <a href="{{.Permalink}}" download>Download listing</a>
+      <!-- <a href="{{.Permalink}}" download>Download listing</a> -->
     </section>
     {{end}}
     {{with 

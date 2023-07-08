@@ -1,11 +1,11 @@
 ---
-title: Little Bitta
+title: Little Bitta Granola
 description: Welcome to the website of Michele Lefebvre. 
 subtitle: MN based, homemade, small-batch granola
 type: basic
 ---
 
-![about us](image/about.jpg)
+![granola](image/granola.png)
 
 Michele does it *right*
 ==================
@@ -16,7 +16,7 @@ story, check out [About Us](./about).
 
 * * *
 
-![contact us](image/contact.jpg)
+![contact us](image/family.jpg)
 
 Personalized especially for you
 -------------------------------

@@ -23,6 +23,7 @@ text-decoration: none;
 }
 .post {
 border: 2px solid transparent;
+color: #4b5563;
 cursor: pointer;
 overflow: hidden;
 padding: .5rem;
@@ -59,7 +60,6 @@ width: 100%;
 font-weight: 700;
 padding-top: 1.25rem;
 padding-bottom: 1.25rem;
-color: rgb(var(--red), var(--green), var(--blue));
 }
 .post div:hover {
 text-decoration: underline;
@@ -70,10 +70,8 @@ font-size: 1.25rem;
 line-height: 1.75rem;
 padding-bottom: .75rem;
 padding-top: 2rem;
-/* color: #1f2937; */
 }
 .post article {
-/* color: #4b5563; */
 overflow: hidden;
 display: -webkit-box;
 -webkit-line-clamp: 3;

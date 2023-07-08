@@ -16,6 +16,7 @@ socialIcons:
 hideFooter: false
 defaultTheme: auto
 disableThemeToggle: true
+disableScrollToTop: true
 
 label:
   icon: "image/purple-elephant.png"
@@ -23,8 +24,8 @@ label:
   iconHeight: 40px
 
 # You can add testimonials once the customer base increases
-testimonials:
-   - tweet: https://twitter.com/Canelo/status/1655275902010359814?cxt=HHwWjIC8ibaq3PgtAAAA
+# testimonials:
+#    - tweet: https://twitter.com/Canelo/status/1655275902010359814?cxt=HHwWjIC8ibaq3PgtAAAA
 #   - author: Louis Lefebvre
 #     from: Fictional Incorporated
 #     content: >
