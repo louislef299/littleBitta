@@ -1,4 +1,12 @@
-.footer, .header {
+.header {
     background-color: var(--footer-header);
     color: var(--footer-header-text)
+}
+
+.footer {
+    background-image: url(../../../images/minneapolis-skyline.png);
+    color: var(--footer-header-text);
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
 }
